@@ -37,6 +37,10 @@ def determine_hours_needed():
     return str(float("{0:.2f}".format(new_hours_needed)))
 
 
+def round_to_minutes(x, base=5):
+    return base * round(x/base)
+
+
 def write_log(hrs, str_min):
     with open('log.txt', 'a') as file:
         file.write("/spend " + str(hrs) + "h " + str_min + "m " +
@@ -51,13 +55,14 @@ if __name__ == "__main__":
     start = start()
 
     if input("\nEnter f to end running\n") == 'f':
-        difference = end() - start
+        # difference = end() - start
+        difference = 6941
 
         difference_as_hours = get_hours(difference)
         hours = math.trunc(difference_as_hours)
 
         minutes_as_decimal = get_minutes(difference_as_hours, hours)
-        minutes_as_int = minutes_as_decimal * 60
+        minutes_as_int = round_to_minutes(minutes_as_decimal * 60)
         minutes_string = str(math.ceil(minutes_as_int))
 
         format_time_gitlab(hours, minutes_string)
