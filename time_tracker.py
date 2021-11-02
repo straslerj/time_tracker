@@ -27,10 +27,9 @@ def get_minutes(full_time, hours_trunc):
 
 
 def format_time_gitlab(hrs, minutes):
-    formatted = "/spend " + str(hrs) + "h " + minutes + "m " + str(datetime.today().strftime('%Y-%m-%d') +
-                                                                   " <--- this is already copied to your clipboard!")
+    formatted = "/spend " + str(hrs) + "h " + minutes + "m " + str(datetime.today().strftime('%Y-%m-%d'))
     pyperclip.copy(formatted + "\n\n")
-    print(formatted)
+    print(formatted + " <--- this is already copied to your clipboard!")
 
 
 def determine_hours_needed():
