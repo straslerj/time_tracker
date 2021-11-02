@@ -6,7 +6,7 @@ Time tracking program that will format output to be easily put into Gitlab. Feel
  1. Clone this repository to desired folder.
  2. You may want to take note of this location, but it is not strictly necessary.
  
- *Note: if you move the batch file to be somewhere more convinient e.g. the desktop be sure to update the path to the Python file to the full path.*
+ *Note: if you move the batch file to be somewhere more convinient e.g. the desktop (recommended) be sure to update the path to the Python file to the full path.*
 
 #### Starting the Timer
 1. Either a. Navigate to the repository and double-click on `time_tracker.bat` or b. (if on Windows) open Start (`⊞ Win`) and type `time_tracker.bat` and run the application. You will likely have to use option (a) to begin.
