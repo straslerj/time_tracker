@@ -7,7 +7,7 @@ Time tracking program that will format output to be easily put into Gitlab. Feel
  2. You may want to take note of this location, but it is not strictly necessary.
 
 #### Starting the Timer
-1. Either a. Navigate to the repository or b. (if on Windows) open Start (`⊞ Win`) and type `time_tracker.bat` and run the application.
+1. Either a. Navigate to the repository and double-click on `time_tracker.bat` or b. (if on Windows) open Start (`⊞ Win`) and type `time_tracker.bat` and run the application. You will likely have to use option (a) to begin.
 
 2. Once running, the application is tracking your time. You do not need to do anything until you are ready to be done tracking your time.
 
