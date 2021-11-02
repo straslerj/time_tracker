@@ -55,8 +55,7 @@ if __name__ == "__main__":
     start = start()
 
     if input("\nEnter f to end running\n") == 'f':
-        # difference = end() - start
-        difference = 6941
+        difference = end() - start
 
         difference_as_hours = get_hours(difference)
         hours = math.trunc(difference_as_hours)
