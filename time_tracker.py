@@ -6,6 +6,7 @@ Author: Jake Strasler
 
 from datetime import datetime
 import math
+import pyperclip
 import time
 
 
@@ -26,7 +27,10 @@ def get_minutes(full_time, hours_trunc):
 
 
 def format_time_gitlab(hrs, minutes):
-    print("/spend " + str(hrs) + "h " + minutes + "m " + str(datetime.today().strftime('%Y-%m-%d')))
+    formatted = "/spend " + str(hrs) + "h " + minutes + "m " + str(datetime.today().strftime('%Y-%m-%d') +
+                                                                   " <--- this is already copied to your clipboard!")
+    pyperclip.copy(formatted + "\n\n")
+    print(formatted)
 
 
 def determine_hours_needed():
