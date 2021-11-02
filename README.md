@@ -1,5 +1,5 @@
 # time_tracker
-Time tracking program that will format output to be easily put into Gitlab. Feel free to branch and use it yourself!
+Time tracking program that will format output to be easily put into Gitlab. Feel free to **branch** and use it yourself!
 
 #### Getting Started
 
