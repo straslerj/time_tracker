@@ -8,7 +8,9 @@ Time tracking program that will format output to be easily put into Gitlab. Feel
 
 #### Starting the Timer
 1. Either
+
 a. Navigate to the repository or
+
 b. (if on Windows) open Start (`⊞ Win`)  and type `time_tracker.bat` and run the application.
 2. Once running, the application is tracking your time. You do not need to do anything until you are ready to be done tracking your time.
 
