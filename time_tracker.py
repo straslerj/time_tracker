@@ -45,9 +45,9 @@ def round_to_minutes(x, base=5):
 
 
 def write_log(hrs, str_min):
-    with open('log.txt', 'a') as file:
-        file.write("/spend " + str(hrs) + "h " + str_min + "m " +
-                   str(datetime.today().strftime('%Y-%m-%d')) + "\n")
+    with open('log.txt', 'a+') as file:
+        file.write("/n/spend " + str(hrs) + "h " + str_min + "m " +
+                   str(datetime.today().strftime('%Y-%m-%d')))
 
 
 if __name__ == "__main__":
